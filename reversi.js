@@ -132,9 +132,9 @@ function insert_img() {
   var cell_list = document.getElementsByTagName("td");
   for (c = 0; c < cell_list.length; c++) {
     if (cell_list[c].className == SymbolList[0]) {
-      document.getElementById(cell_list[c].id).innerHTML = "<img src='./white.png'>"
+      document.getElementById(cell_list[c].id).innerHTML = "<img src='./img/white.png'>"
     } else if (cell_list[c].className == SymbolList[1]) {
-      document.getElementById(cell_list[c].id).innerHTML = "<img src='./blackstone.png'>"
+      document.getElementById(cell_list[c].id).innerHTML = "<img src='./img/blackstone.png'>"
     }
   }
 }
